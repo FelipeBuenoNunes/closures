@@ -1,0 +1,52 @@
+:root{
+    --font-size-history: 16px;
+}
+
+*{
+    border: 0;
+    margin: 0;
+}
+
+main{
+    min-height: 100vh;
+    background-image: url(https://www.diariodetaubateregiao.com.br/dt/wp-content/uploads/2021/09/Moral-dos-tres-porquinhos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div,
+h1{
+    background: hsla(0, 0%, 100%, 0.75);
+    padding: 1vw;
+    border-radius: 0.4vw;
+    margin-top: 4vh;
+}
+
+
+.history{
+    font-size: var(--font-size-history);
+    margin: 0.5vh 0;
+    width: 60vw;
+    text-align: justify;
+    line-height: auto + 1vh;
+}
+
+form input{
+    font-size: 20px;
+    margin-top: 1.5vh;
+}
+form{
+    margin-top: 2vh;
+    text-align: center;
+}
+
+form > p,
+form > span{
+    background: hsla(0, 0%, 100%, 0.75);
+    padding: 0.4vw;
+    border-radius: 0.4vw;
+}
